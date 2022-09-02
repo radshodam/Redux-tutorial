@@ -1,0 +1,1 @@
+export const BUY_FRUIT_JUICE = "BUY_FRUIT_JUICE";
