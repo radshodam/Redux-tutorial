@@ -7,7 +7,7 @@ function ContainerCake() {
   //? selector function receive redux stats as arguments === map_To_state
   //? useSelector hooks returns whatever returns by selector function
 
-  const numOfCakes = useSelector((state) => state.numOfCakes);
+  const numOfCakes = useSelector((state) => state.cake.numOfCakes);
 
   //?  useDispatch hooks returns a reference to the dispatch function in redux store
   const dispatch = useDispatch();
